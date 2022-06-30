@@ -1,0 +1,6 @@
+project: feature_repo_local
+registry: data/registry.db
+provider: local
+online_store:
+    type: redis
+    connection_string: ${REDIS_HOST}:${REDIS_PORT}
